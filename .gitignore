@@ -1,0 +1,35 @@
+# Terraform
+terraform/.terraform/
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/*.tfvars
+
+# SSH Keys
+*.pem
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# IDE specific
+.vscode/
+.idea/
+
+# Compiled class files
+*.class
+
+# Maven
+target/
+
+# Docker volumes
+volumes/
+
+# Backup files
+*.bak
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
